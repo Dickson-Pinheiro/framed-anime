@@ -12,8 +12,31 @@
   align-items: center;
 }
 
-.main h1 {
+ .containerHelp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  max-width: 500px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.main header {
+  width: 30vw;
+  margin-left: -80px;
+  max-width: 500px;
+  display: flex;
+  height: 45px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.main header h1 {
+  width: 30vw;
   color: #eaeaea;
+  font-family: Nunito;
+  text-align: left;
 }
 
 .main img {
